@@ -1,0 +1,49 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.6.1",
+    "fns": "^1.0.0",
+    "framer-motion": "^12.19.2",
+    "gsap": "^3.13.0",
+    "install": "^0.13.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.487.0",
+    "npm": "^11.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.3",
+    "socket.io-client": "^4.8.1",
+    "swiper": "^11.2.9",
+    "tailwindcss": "^4.1.11",
+    "three": "^0.125.2",
+    "toast": "^0.5.4",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^15.15.0",
+    "vite": "^6.3.5"
+  }
+}
